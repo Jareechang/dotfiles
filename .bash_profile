@@ -23,4 +23,9 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# check if Vundle package manager is installed 
+if [ -f ~/.vim/bundle/Vundle.vim ]; then
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+fi
 export CLICOLOR=1
