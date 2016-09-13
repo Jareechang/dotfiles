@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/Jerry/docker'
+let g:netrw_dirhist_2='/Users/Jerry'
+let g:netrw_dirhist_3='/Users/Jerry/.meteor'
+let g:netrw_dirhist_4='/Users/Jerry'
