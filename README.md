@@ -6,9 +6,3 @@ for(;;) {
 }
 ```
 
-## To use
-run ->
-```
-./install.sh
-```
-
