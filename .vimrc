@@ -19,19 +19,6 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Bundle 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'pangloss/vim-javascript'
-Bundle 'tpope/vim-ragtag'
-Plugin 'hynek/vim-python-pep8-indent'
-Bundle 'terryma/vim-multiple-cursors'
-
-call vundle#end()            " required
-
 let mapleader=","
 set nofoldenable  
 set nocompatible
