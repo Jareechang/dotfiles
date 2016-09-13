@@ -5,3 +5,10 @@ for(;;) {
     vi .
 }
 ```
+
+## To use
+run ->
+```
+./install.sh
+```
+
