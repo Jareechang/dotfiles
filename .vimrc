@@ -30,7 +30,7 @@ Plugin 'pangloss/vim-javascript'
 Bundle 'tpope/vim-ragtag'
 Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'hashivim/vim-terraform'
-Plugin 'mxw/vim-jsx'
+Plugin 'maxmellon/vim-jsx-pretty'
 Bundle 'terryma/vim-multiple-cursors'
 
 call vundle#end()            " required
