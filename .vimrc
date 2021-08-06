@@ -24,6 +24,7 @@ call vundle#begin()
 
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'preservim/nerdtree'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Bundle 'tpope/vim-ragtag'
