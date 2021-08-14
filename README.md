@@ -16,3 +16,8 @@ for(;;) {
    - See [macOS instructions](https://github.com/ycm-core/YouCompleteMe#macos) for more info
 4. Update theme with [vim-color-solarized](https://github.com/altercation/vim-colors-solarized)
    - clone repo then `cp vim-color-solarized/colors/solarized.vim ~/.vim/colors/solarized.vim`  
+5. Move files under `bash` into `~/` 
+   - `cp ./bash/.bash_profile ~/.bash_profile`
+   - `mkdir ~/custom-bash && cp ./bash/commands.sh ~/custom-bash/commands.sh`
+6. Update gitconfig 
+   - `cp .gitconfig ~/.gitconfig`
