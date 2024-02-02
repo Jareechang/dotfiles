@@ -1,8 +1,5 @@
 set nocompatible
 
-call pathogen#infect()
-call pathogen#helptags()
-
 if !has("gui_running")
         let g:solarized_termtrans=1
         let g:solarized_termcolors=256
@@ -32,6 +29,8 @@ Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'hashivim/vim-terraform'
 Plugin 'maxmellon/vim-jsx-pretty'
 Bundle 'terryma/vim-multiple-cursors'
+Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call vundle#end()            " required
 
@@ -107,3 +106,17 @@ function! ObjToJson()
 endfunction
 
 let g:terraform_align=1
+
+# vim fzf settings
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
+nnoremap <silent> <Leader>b :Buffers<CR>
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
+nnoremap <silent> <Leader>/ :BLines<CR>
+nnoremap <silent> <Leader>' :Marks<CR>
+nnoremap <silent> <Leader>g :Commits<CR>
+nnoremap <silent> <Leader>H :Helptags<CR>
+nnoremap <silent> <Leader>hh :History<CR>
+nnoremap <silent> <Leader>h: :History:<CR>
+nnoremap <silent> <Leader>h/ :History/<CR>
